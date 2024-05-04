@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Lato light;
+    src: url(./fonts/Lato-Light.woff);
+}
+@font-face {
+    font-family: Lato bold;
+    src: url(./fonts/Lato-Bold.woff);
+}
+@font-face {
+    font-family: Lato italic;
+    src: url(./fonts/Lato-Italic.woff);
+}
+@font-face {
+    font-family: Raleway light;
+    src: url(./fonts/Raleway-Light.woff);
+}
+@font-face {
+    font-family: Raleway bold;
+    src: url(./fonts/Raleway-Bold.woff);
+}
+@font-face {
+    font-family: Raleway italic;
+    src: url(./fonts/Raleway-Italic.woff);
+}
+
