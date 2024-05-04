@@ -56,3 +56,39 @@ header h1{
     box-shadow: 0 0 15px #2c1d27;
     cursor: zoom-in;
 }
+
+
+#données_personnelles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #2c1d27;
+    padding: 0 15px;
+    height: 50px;
+    font-family: "Raleway light", sans-serif;
+    font-style: italic;
+}
+
+.adresse a{
+    text-decoration: none;
+    color: white;
+    justify-self: flex-start;
+}
+
+.mail a{
+    text-decoration: none;
+    color: white;
+    justify-self: center;
+}
+
+.téléphone a{
+    text-decoration: none;
+    color: white;
+    justify-self: flex-end;
+}
+
+a:hover{
+    text-decoration: underline;
+}
