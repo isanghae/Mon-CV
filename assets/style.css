@@ -200,3 +200,30 @@ section{
     cursor: pointer;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 1160px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #782221;
+}
+
+#logos img{
+    height: 3em;
+    width: 3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logos a:hover{
+    opacity: 0.6;
+}
+
+small{
+    color: white;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
