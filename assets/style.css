@@ -23,3 +23,36 @@
     src: url(./fonts/Raleway-Italic.woff);
 }
 
+#bloc_page{
+    width: 1160px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-family: "Lato light", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #782221;
+}
+
+header h1{
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.photo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #dbc2a4;
+    border: solid #782221 3px;
+    box-shadow: 0 0 15px #2c1d27;
+    cursor: zoom-in;
+}
