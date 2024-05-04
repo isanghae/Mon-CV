@@ -92,3 +92,111 @@ header h1{
 a:hover{
     text-decoration: underline;
 }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #782221;
+    width: 386px;
+}
+
+aside h3{
+    background-color: #dbc2a4;
+    padding-left: 15px;
+    width: 340px;
+    font-family: "Lato bold", sans-serif;
+} 
+
+.à_propos p{
+    text-indent: 1em;
+    text-align: justify;
+    width: 340px;
+    padding-left: 15px;
+    font-family: "Raleway light", sans-serif;
+    color: white;
+}
+
+.langues ul{
+    width: 340px;
+    padding-left: 30px;
+    text-align: justify;
+    font-family: "Raleway light", sans-serif;
+    color: white;
+}
+
+.intérêts ul{
+    width: 340px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: "Raleway light", sans-serif;
+    color: white;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 774px;
+    padding-left: 15px;
+    border-right: solid black 2px;
+    font-family: "Raleway light", sans-serif;
+}
+
+#expériences_professionnelles h3{
+    font-family: "Lato bold", sans-serif;
+    background-color: #dbc2a4;
+    padding-left: 15px;
+    width: 720px;
+}
+
+#expériences_professionnelles h3:hover{
+    border-left: #782221 solid 0.5em;
+    cursor: pointer;
+}
+
+#expériences_professionnelles h4{
+    font-family: "Lato bold", sans-serif;
+}
+
+#formations h3{
+    font-family: "Lato bold", sans-serif;
+    background-color: #dbc2a4;
+    padding-left: 15px;
+    width: 720px;
+}
+
+#formations h3:hover{
+    border-left: #782221 solid 0.5em;
+    cursor: pointer;
+}
+
+#formations h4{
+    font-family: "Lato bold", sans-serif;
+}
+
+#compétences h3{
+    font-family: "Lato bold", sans-serif;
+    background-color: #dbc2a4;
+    padding-left: 15px;
+    width: 720px;
+}
+
+#compétences h3:hover{
+    border-left: #782221 solid 0.5em;
+    cursor: pointer;
+}
+
